@@ -11,6 +11,7 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url "http://cloudant.github.io/cloudant-sync-eap/repository/" }
         mavenCentral()
     }
 }
